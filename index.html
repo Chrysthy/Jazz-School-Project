@@ -17,17 +17,22 @@
 
 <body>
     <header>
-        <img src="img/logo.svg" alt="logo">
 
-        <nav class="mt-1 mx-auto">
-            <a href="#">Início</a>
-            <a href="#">Cursos</a>
-            <a href="#">Eventos</a>
-            <a href="#">Contatos</a>
+        <div class="container">
 
-        </nav>
+            <img src="img/logo.svg" alt="logo">
 
-        <a href="#" class="button mt-1 mb-1 mx-auto ">Se inscreva</a>
+            <nav>
+                <a href="#">Início</a>
+                <a href="#">Cursos</a>
+                <a href="#">Eventos</a>
+                <a href="#">Contatos</a>
+
+            </nav>
+
+            <a href="#" class="button mt-1 mb-1 mx-auto ">Se inscreva</a>
+
+        </div>
 
     </header>
 
@@ -35,22 +40,25 @@
 
         <section class="hero-section">
 
-            <img src="img/hero-img.svg" alt="Banda de Jazz Tocando">
+            <div class="container row-reverse">
 
-            <div>
+                <img src="img/hero-img.svg" alt="Banda de Jazz Tocando">
 
-                <h1 class="mt-2">Crie algo <span class="text-primary decoration">impactante</span> com música</h1>
+                <div>
 
-                <p class="mt-2 mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quod quaerat
-                    minus, omnis nemo
-                    reprehenderit rerum! Dignissimos amet voluptatibus, expedita dolore aspernatur non cumque eos, ullam
-                    voluptatum voluptatem et libero?
-                </p>
+                    <h1 class="mt-2">Crie algo <span class="text-primary decoration">impactante</span> com música</h1>
 
-                <a href="#" class="button ">Comece agora</a>
+                    <p class="mt-2 mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quod quaerat
+                        minus, omnis nemo
+                        reprehenderit rerum! Dignissimos amet voluptatibus, expedita dolore aspernatur non cumque eos,
+                        ullam
+                        voluptatum voluptatem et libero?
+                    </p>
 
+                    <a href="#" class="button ">Comece agora</a>
+
+                </div>
             </div>
-
         </section>
 
         <section class="courses-section">
@@ -135,35 +143,39 @@
 
     <footer>
 
-        <div>
+        <div class="container">
 
-            <img src="img/logo.svg" alt="Tom's Jazz School" class="mt-1 mb-1">
+            <div class="about-colum">
 
-            <p class="mb-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab repudiandae dolorem voluptatum
-                inventore
-                error quae itaque dolores, ullam at, veritatis autem voluptatibus atque cum, assumenda minus architecto!
-                Incidunt, sapiente provident.
-            </p>
+                <img src="img/logo.svg" alt="Tom's Jazz School" class="mt-1 mb-1">
 
+                <p class="mb-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab repudiandae dolorem
+                    voluptatum
+                    inventore
+                    error quae itaque dolores, ullam at, veritatis autem voluptatibus atque cum, assumenda minus
+                    architecto!
+                    Incidunt, sapiente provident.
+                </p>
+
+            </div>
+
+            <nav class="mb-2">
+                <a href="#">Início</a>
+                <a href="#">Cursos</a>
+                <a href="#">Eventos</a>
+                <a href="#">Contatos</a>
+
+            </nav>
+
+            <form class="newsletter-form">
+
+                <label for="email" class="mb-1">Receba Materiais Gratuitos no seu E-mail</label>
+                <input type="text" name="email" id="email" class="mb-1" placeholder="Digite seu E-mail">
+
+                <button class="button mb-2">Quero Receber</button>
+
+            </form>
         </div>
-
-        <nav class="mb-2">
-            <a href="#">Início</a>
-            <a href="#">Cursos</a>
-            <a href="#">Eventos</a>
-            <a href="#">Contatos</a>
-
-        </nav>
-
-        <form class="newsletter-form">
-
-            <label for="email" class="mb-1">Receba Materiais Gratuitos no seu E-mail</label>
-            <input type="text" name="email" id="email" class="mb-1" placeholder="Digite seu E-mail">
-
-            <button class="button mb-2">Quero Receber</button>
-
-        </form>
-
     </footer>
 
 
