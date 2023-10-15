@@ -1,10 +1,11 @@
 # Jazz School Web Page 
 
 <h3> Landing Page Project 2. </h3>
-<h4>Getting to know the process of creating a landing page from design in Figma to its development with HTML and CSS.</h4>
+
+Understanding the process of crafting a landing page, from the initial design in [Figma](https://www.figma.com/file/TWA7R1DG06AlorIbzr8JqO/Tom's-Jazz-School-(Copy)?mode=dev) to its development using HTML and CSS.
 
 <p> * Project created by One bit code and performed by me. </p>
-
+ 
 
 
 
