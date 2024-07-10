@@ -1,4 +1,4 @@
-# Jazz School Web Page 
+# Jazz School Website 
 
 <h3> Landing Page Project 2. </h3>
 
