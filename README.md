@@ -6,7 +6,15 @@ Understanding the process of crafting a landing page, from the initial design in
 
 <p> * Project created by One bit code and performed by me. </p>
  
+<br>
 
+## 🛠️ Tools Utilized:
+
+- HTML;
+- CSS;
+- JavaScript.
+
+<br>
 
 
 <br>
