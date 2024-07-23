@@ -12,7 +12,6 @@ Understanding the process of crafting a landing page, from the initial design in
 
 - HTML;
 - CSS;
-- JavaScript.
 
 <br>
 
